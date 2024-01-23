@@ -9,7 +9,6 @@ body {
     font-family: 'outfit', sans-serif;
     font-size: 18px;
     height: 100vh;
-    overflow: hidden;
 }
 
 #card{
@@ -59,14 +58,13 @@ div.img{
     color: hsl(178, 100%, 50%);
 }
 
-
-
-
-
 #days{
     color: hsl(215, 51%, 70%);
 }
 
+.creation p{
+    color: hsl(215, 51%, 70%);
+}
 
 #avatar{
     width: 50px;
