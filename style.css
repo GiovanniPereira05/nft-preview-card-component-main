@@ -1,0 +1,87 @@
+@charset "utf8";
+ 
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'outfit', sans-serif;
+    font-size: 18px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#card{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 13px;
+}
+
+
+#equilibrium{
+    padding: 15pt;
+    width: 400px;
+    border-radius: 30px;    
+}
+
+div.img{
+    border-radius: 15px;
+}
+
+#product{
+    color: white;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+#product:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+#description{
+    color: hsl(215, 51%, 70%);
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.text{  
+    margin: 20pt;
+}
+
+
+#information{
+    display: flex;
+    justify-content: space-between;
+}
+
+#eth{
+    color: hsl(178, 100%, 50%);
+}
+
+
+
+
+
+#days{
+    color: hsl(215, 51%, 70%);
+}
+
+
+#avatar{
+    width: 50px;
+    height: 50px;
+}
+
+#author{
+    color: #ffffff;
+}
+
+#author:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}   
+
+hr{
+    border-color: rgb(29, 28, 28);
+}
